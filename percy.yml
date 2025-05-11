@@ -1,0 +1,21 @@
+version: 1
+snapshot:
+  widths: [1280]  # Only test at 1280px width (desktop view)
+  minHeight: 800  # Minimum height for the snapshot to be captured
+  browsers:
+    - browser: edge
+      version: 105.0
+    # Optionally, you can add more browsers or just stick to one
+    # - browser: chrome
+    #   version: latest
+    # - browser: firefox
+    #   version: latest
+  percyCSS: |
+    /* Masking dynamic elements or animations that might cause flickers */
+    .some-dynamic-element {
+      display: none !important;
+    }
+    .js-triggered-animation {
+      animation: none !important;
+      transition: none !important;
+    }
