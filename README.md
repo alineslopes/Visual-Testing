@@ -36,21 +36,16 @@ Before setting up the project, make sure you have the following installed:
 🔐 Also, sign up at https://percy.io, create a new project, and obtain your Percy Token.
 
 🚀 Setup Instructions
-1. Clone the Repository
-git clone https://github.com/alineslopes/Visual-Testing.git
-cd Visual-Testing
+1. Clone the Repository : git clone https://github.com/alineslopes/Visual-Testing.git
+and navigate to the paste: cd Visual-Testing
 
-2. Install Dependencies
-npm install
+2. Install Dependencies : npm install
 
-3. Install Cypress
-npx cypress install
+3. Install Cypress : npx cypress install
 
-4. Install Percy CLI
-npm install -g @percy/cli
+4. Install Percy CLI : npm install -g @percy/cli
 
-5. Set the Percy Token
-Use your Percy token from https://percy.io
+5. Set the Percy Token : Use your Percy token from https://percy.io
 
 On Windows (PowerShell): $env:PERCY_TOKEN = "your_token_here"
 
