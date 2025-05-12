@@ -1,14 +1,14 @@
 📸 Visual Testing with Cypress and Percy
-This project demonstrates how to implement visual regression testing using Cypress and Percy. Visual regression testing helps ensure that your application's UI remains consistent and free from unintended changes during development.
+
+- This project demonstrates how to implement visual regression testing using Cypress and Percy. Visual regression testing helps ensure that your application's UI remains consistent and free from unintended changes during development.
 
 🧐 What is Visual Testing?
-Visual testing (or visual regression testing) captures screenshots of your application's UI and compares them over time to detect unintended changes. It is especially useful for identifying visual issues such as:
 
-Layout shifts
+- Visual testing (or visual regression testing) captures screenshots of your application's UI and compares them over time to detect unintended changes. It is especially useful for identifying visual issues such as:
 
-CSS/styling bugs
-
-Responsive design problems
+1. Layout shifts
+2. CSS/styling bugs
+3. Responsive design problems
 
 By integrating visual testing into your workflow, you can:
 
@@ -17,14 +17,6 @@ By integrating visual testing into your workflow, you can:
 ✅ Maintain confidence when refactoring or updating UI
 
 📁 Project Structure
-Visual-Testing/
-├── cypress/
-│   └── e2e/
-│       └── visual.spec.js
-├── cypress.config.js
-├── package.json
-├── percy.yml
-└── README.md
 
 | File/Folder         | Description                      |
 | ------------------- | -------------------------------- |
@@ -37,9 +29,9 @@ Visual-Testing/
 ⚙️ Prerequisites
 Before setting up the project, make sure you have the following installed:
 
-Node.js (v14 or higher)
-npm (comes with Node.js)
-Git
+1. Node.js (v14 or higher)
+2. npm (comes with Node.js)
+3. Git
 
 🔐 Also, sign up at https://percy.io, create a new project, and obtain your Percy Token.
 
@@ -71,12 +63,8 @@ After the test run, visit your Percy dashboard to review and approve the visual 
 
 
 📚 Resources
-Percy Docs
-Cypress Docs
-GitHub Project
-
-📝 License
-This project is licensed under the MIT License.
-
+Percy Docs, 
+Cypress Docs, 
+GitHub Project.
 
 
